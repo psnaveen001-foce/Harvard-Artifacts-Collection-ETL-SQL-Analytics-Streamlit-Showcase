@@ -215,6 +215,18 @@ Stores color and hue information.
 
 - All queries are selectable and executable directly from the UI.
 
+## 📸 Application Screenshots
+
+### Streamlit Dashboard
+![Streamlit UI](assets/streamlit_ui.png)
+
+### SQL Analytics
+![SQL Queries](assets/sql_queries.png)
+
+### SQL Migration
+![SQL Migration](
+
+
 # ⚙️ Setup Instructions
 1️⃣ Clone the Repository
 
@@ -225,7 +237,7 @@ Stores color and hue information.
 2️⃣ Install Dependencies
 
 ```bash
-- pip install -r requirements.txt
+ pip install -r requirements.txt
 ```
 
 3️⃣ Configure Credentials
@@ -239,7 +251,7 @@ DB_PASSWORD = "YOUR_DATABASE_PASSWORD"
 
 ▶️ Running the Application
 ```bash
-- streamlit run app.py
+ streamlit run app.py
 ```
 - The Streamlit app launches locally and provides tabs for:
 
