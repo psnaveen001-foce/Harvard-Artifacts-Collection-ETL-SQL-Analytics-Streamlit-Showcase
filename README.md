@@ -218,7 +218,7 @@ Stores color and hue information.
 ## 📸 Application Screenshots
 
 ### Streamlit Dashboard
-![Streamlit UI](assets/streamlit_ui.png)
+![Streamlit UI]([assets/streamlit_ui.png](https://github.com/psnaveen001-foce/Harvard-Artifacts-Collection-ETL-SQL-Analytics-Streamlit-Showcase/blob/a855b78c112c6e6e2f10690751b3648ebfb42461/Home_UI.png))
 
 ### SQL Migration
 ![SQL Migration](https://github.com/psnaveen001-foce/Harvard-Artifacts-Collection-ETL-SQL-Analytics-Streamlit-Showcase/blob/6b27412ea71ccf8830aec848d2b4356cb09ab290/SQL_UI.png)
