@@ -231,7 +231,7 @@ Stores color and hue information.
 1️⃣ Clone the Repository
 
 ```bash
-- git clone https://github.com/your-username/Harvard-Artifacts-ETL-Streamlit.git cd Harvard-Artifacts-ETL-Streamlit
+ git clone https://github.com/your-username/Harvard-Artifacts-ETL-Streamlit.git cd Harvard-Artifacts-ETL-Streamlit
 ```
   
 2️⃣ Install Dependencies
