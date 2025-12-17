@@ -1,5 +1,5 @@
 # ---------------------------
-# 4️⃣ Create Tables
+️⃣ Create Tables
 # ---------------------------
 with engine_new.begin() as conn:
     conn.execute(text("""
