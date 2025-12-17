@@ -224,7 +224,7 @@ Stores color and hue information.
 ![SQL Migration](https://github.com/psnaveen001-foce/Harvard-Artifacts-Collection-ETL-SQL-Analytics-Streamlit-Showcase/blob/6b27412ea71ccf8830aec848d2b4356cb09ab290/SQL_UI.png)
 
 ### SQL Analytics
-![SQL Queries](assets/sql_queries.png)
+![SQL Queries]([assets/sql_queries.png](https://github.com/psnaveen001-foce/Harvard-Artifacts-Collection-ETL-SQL-Analytics-Streamlit-Showcase/blob/c1a37a9d9d0c8d0071cda142c137bd8fe4d73842/Analytics.png))
 
 
 # ⚙️ Setup Instructions
