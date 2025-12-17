@@ -220,11 +220,11 @@ Stores color and hue information.
 ### Streamlit Dashboard
 ![Streamlit UI](assets/streamlit_ui.png)
 
+### SQL Migration
+![SQL Migration](https://github.com/psnaveen001-foce/Harvard-Artifacts-Collection-ETL-SQL-Analytics-Streamlit-Showcase/blob/6b27412ea71ccf8830aec848d2b4356cb09ab290/SQL_UI.png)
+
 ### SQL Analytics
 ![SQL Queries](assets/sql_queries.png)
-
-### SQL Migration
-![SQL Migration](
 
 
 # ⚙️ Setup Instructions
