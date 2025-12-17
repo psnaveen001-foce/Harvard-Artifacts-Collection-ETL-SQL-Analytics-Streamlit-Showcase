@@ -25,7 +25,7 @@ if selected == "SQL Queries":
         "#16 List artifact titles and hues for all artifacts belonging to the Byzantine culture": "SELECT DISTINCT m.title, c.hue FROM metadata m JOIN colors c ON m.id=c.objid WHERE culture='Byzantine';",
         "#17 List each artifact title with its associated hues(Distinct):": "SELECT m.title, GROUP_CONCAT(DISTINCT c.hue) as hues FROM metadata m JOIN colors c ON m.id=c.objid GROUP BY m.id;",
         "#18 Get artifact titles, cultures, and media ranks where the period is not null": "SELECT m.title, m.culture, me.db_rank FROM metadata m JOIN media me ON m.id=me.objid WHERE m.period IS NOT NULL;",
-        "#19 Find artifact titles ranked in the top 10 that include the color hue Grey": "SELECT DISTINCT m.title FROM metadata m JOIN colors c ON m.id=c.objid WHERE c.hue='Grey' LIMIT 10;",
+        "#19 Find artifact titles ranked in the top 10 that include the color hue Grey": "SELECT DISTINCT m.title, me.db_rank FROM metadata m JOIN media me ON m.id = me.objid JOIN colors c ON m.id = c.objid WHERE c.hue = 'Grey' ORDER BY me.db_rank ASC LIMIT 10;;",
         "#20  How many artifacts exist per classification, and what is the average media count for each": "SELECT m.classification, COUNT(*) as count, AVG(me.mediacount) as avg_media FROM metadata m JOIN media me ON m.id=me.objid GROUP BY m.classification;",
         "#21 Artifacts with silver medium": "SELECT DISTINCT title, medium FROM metadata WHERE medium IS NOT NULL AND LOWER(medium) LIKE '%%silver%%';",
         "#22 Artifacts acquired via donation": "SELECT title FROM metadata WHERE accessionmethod='Gift';",
